@@ -5,7 +5,7 @@
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
                 <li><a href="sass.html">Liste utilisateurs</a></li>
-                <li><a href="View/formView.php">Ajouter un utilisateur</a></li>
+                <li><a href="View/formView.php">Ajouter un nouveau client</a></li>
             </ul>
         </div>
     </nav>
