@@ -1,3 +1,8 @@
+<?php
+    require 'formController.php';
+?>
+
+
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
 
@@ -59,12 +64,12 @@
                 <div class="row margin">
                     <div class="input-field col s12">
                         <i class="material-icons prefix">work</i>
-                        <select name="service" id="service">
-                            <option value="" selected disabled>Choisissez votre service...</option>
-                            <option value="1">Maintenance</option>
-                            <option value="2">Web Developer</option>
-                            <option value="3">Web Designer</option>
-                            <option value="4">Référenceur</option>
+                        <select name="maritalStatus" id="maritalStatus">
+                            <option value="" selected disabled>Sélectionner un status...</option>
+                            <option value="1">Célibataire</option>
+                            <option value="2">Concubinage</option>
+                            <option value="3">Divorcé</option>
+                            <option value="4">Marié Veuf</option>
                         </select>
                     </div>
                 </div>
